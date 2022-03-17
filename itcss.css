@@ -1,0 +1,258 @@
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ color: #000000;
+ background-color: #ffffff;
+}
+
+span{color:#990000; font-weight:bold}
+
+.box{text-align:left;background-color:#F4F4F4;border-style:solid;border-width:1px;width:75%}
+
+
+par.tr{
+	background-color:#ff0000;
+}
+
+impar.tr{
+	background-color:#00ff00;
+}
+
+#elementos {
+  max-width: 1280px;
+}
+		
+#navibar
+{
+ text-align: right;
+ background-color: #ffffff;
+ background-image: url(http://it.ciidit.uanl.mx/tim/pics/fondo_navibar.jpg); 
+ background-repeat: no-repeat;
+ clear: both;
+ margin-left: 0px;
+ margin-right: 0px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ max-width: 1280px;
+ height: 120px;
+ width: 100%;
+}
+
+#navibar p {
+    padding: 15px;
+}
+
+#navibar a.uanl 
+{
+ height: 120px;
+ width: 250px; 
+ display: block; 
+}
+
+#navibar table
+{
+ border: none;
+}
+
+#navibar tr td 
+{
+ font-size: 100%;
+ color: #eeeeee; 
+} 
+	
+#navibar A:link { 
+ color: #efefef;
+ font-size: 100%;
+ text-decoration: none;
+}
+
+#navibar A:visited { 
+ color: #eeeeee; 
+ font-size: 98%; 
+ text-decoration: none;
+
+}
+
+#navibar A:hover  { 
+ color: #fefefe; 
+ font-size: 102%; 
+ text-decoration: none;
+
+}
+
+#navibar A:active  { 
+ color: #fefefe; 
+ font-size: 102%; 
+ text-decoration: none;
+
+}
+
+#menubar {
+    float: left;
+    clear: left;
+    width: 17%;
+}
+		
+#contenido {
+    float: left;
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: #ffffff;
+    clear: none;
+}
+
+
+#contenido p { 
+ text-indent: 0em;
+ line-height: 120%;
+}
+
+
+#contenido A:link { 
+ color: #009900;
+}
+
+#contenido A:active  { 
+ color: #00ff00; 
+ font-size: 102%; 
+}
+
+#contenido A:hover  { 
+ color: #00cc00; 
+ font-size: 102%; 
+}
+
+#contenido A:visited { 
+ color: #004400; 
+ font-size: 98%; 
+}
+
+#contenido h1 {
+ margin: 0;
+ margin: 0px;
+ padding-top: 7px;
+ padding-bottom: 7px;
+ background-color: #ffffff;
+ text-align: left;
+ color: #003300;
+ font-family: sans-serif;
+}
+
+#contenido h2 { 
+ margin-top: 1em; 
+}
+
+#pie {	
+ font-size: small;
+ background-color: #ffffff;
+ padding: 1em;
+ clear: both;
+ text-align: center;
+ border-top: 10px;
+ margin-top: 20px;
+ width: 100%
+}
+
+	
+#menubar A:link { 
+ color: #005000; 
+ font-size: 100%;
+ text-decoration: none;
+}
+
+#menubar A:visited { 
+ color: #004000; 
+ font-size: 99%; 
+ text-decoration: none;
+
+}
+
+#menubar A:hover  { 
+ color: #006000; 
+ font-size: 101%; 
+ text-decoration: none;
+
+}
+
+#menubar A:active  { 
+ color: #007000; 
+ font-size: 102%; 
+ text-decoration: none;
+
+}
+
+
+#menubar table { 
+ font:115% sans-serif; 
+ background-color:#f0f0f0; 
+ border-spacing: 5px;
+ width: 100%;
+}
+
+#menubar tr td { 	
+ background-color: #a2a0a1; 
+ color: #003000; 
+ padding: 3px;
+ text-align:center; 
+ border-top:1px solid #908e8f; 
+ border-left:1px solid #908e8f;  
+ border-bottom:1px solid #908e8f; 
+ border-right:1px solid #908e8f; 
+}
+
+
+#menubar tr th { 
+ background-color:#c5c9cc; 
+ color:#000000; 
+ padding:3px;
+ text-align:center; 
+ border-top:1px solid #878586;
+ border-left:1px solid #878586;; 
+ border-bottom:1px solid #878586;
+ border-right:1px solid #878586; 
+ text-decoration: none;
+}
+
+
+tbody tr.center td a:hover { 	
+ text-decoration: underline;
+ color:#a1232e; 
+}
+
+tbody tr.center th a { 
+ text-decoration: none;
+ color: #fefefe;
+}
+
+tbody tr th strong { 
+ text-decoration: none;
+ color: #21dd21;
+}
+
+tbody tr td a { 	
+ text-decoration: none;
+ color: #ededed; 
+}
+
+tbody tr th a:visited { 
+ text-decoration: none;
+ color: #213b74;
+}
+
+tbody tr td a:visited { 
+ text-decoration: none;
+ color: #213b74;
+}
+
+tbody tr th a { 
+ text-decoration: none;
+ color: #f1f1f1;
+}
+
+tbody tr th a:hover { 
+ color:#fdfdfd; 
+ text-decoration:underline; 
+}

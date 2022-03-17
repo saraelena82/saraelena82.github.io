@@ -1,0 +1,30 @@
+#!/bin/sh
+
+#  preproc_clusters.sh
+#  
+#
+#  Created by Sara E. Garza on 7/30/13.
+#
+
+SOURCE_DIRECTORY=$1
+#DESTINATION_DIRECTORY=$2
+BDIRNAME=$(basename $SOURCE_DIRECTORY)
+DDIRNAME=$(dirname $SOURCE_DIRECTORY)
+DESTINATION_DIRECTORY="ss_"$BDIRNAME
+
+#echo $SOURCE_DIRECTORY
+#echo $BDIRNAME
+#echo $DDIRNAME
+#echo $DDIRNAME/$DESTINATION_DIRECTORY
+
+mkdir $DDIRNAME/$DESTINATION_DIRECTORY
+
+for file in `ls $SOURCE_DIRECTORY`
+ do
+   ./preproc_gcluster.sh $SOURCE_DIRECTORY/$file $DDIRNAME/$DESTINATION_DIRECTORY
+ done
+
+echo "* Renaming directories *"
+
+mv $SOURCE_DIRECTORY $DDIRNAME/"un_"$BDIRNAME
+mv $DDIRNAME/"ss_"$BDIRNAME $DDIRNAME/$BDIRNAME

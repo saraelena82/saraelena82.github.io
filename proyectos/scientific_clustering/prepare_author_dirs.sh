@@ -1,0 +1,20 @@
+#!/bin/sh
+
+#  prepare_author_dirs.sh
+#  
+#
+#  Created by Sara E. Garza on 8/10/13.
+#
+
+SOURCE_DIRECTORY=$1
+PREFIX=$2
+DDIRNAME=$(dirname $SOURCE_DIRECTORY)
+RESULTS_DIRECTORY=$PREFIX"_"$(basename $SOURCE_DIRECTORY)
+
+mkdir $DDIRNAME/$RESULTS_DIRECTORY
+mkdir $DDIRNAME/$RESULTS_DIRECTORY/src
+mkdir $DDIRNAME/$RESULTS_DIRECTORY/clouds
+mkdir $DDIRNAME/$RESULTS_DIRECTORY/cloud_eps
+mkdir $DDIRNAME/$RESULTS_DIRECTORY/eps
+
+echo $DDIRNAME/$RESULTS_DIRECTORY

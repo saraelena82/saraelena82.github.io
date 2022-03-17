@@ -1,0 +1,33 @@
+BODY{font:10pt arial}
+ H1{font:16pt arial; font-weight:bold}
+ H2{color:#003366}
+ 
+ SPAN{font-weight:bold}
+ SPAN.emph{font-weight:bold; color:#009900}
+ /* Soft highlight Naranja = #FEB445*/
+ SPAN.shighlight{
+ background-color: #CCFFCC
+ }
+ 
+
+ .blue1{color:#0000CC}
+ .blue2{color:#000099}
+ .blue3{color: #0000FF}
+ .blue4{color:#003366}
+ .center{text-align:center}
+ .highlight{background-color:#FFFF00}
+ 
+ TABLE{font:10pt arial}
+ TD.space{position:relative; width:40%}
+ TH.doc{text-align:left; background-color:#003366; color:#F4F4F4}
+ TH.detail{background-color:#003366; color:#F4F4F4}
+ TABLE.doc{background-color:#CCCCCC; width:50%}
+ 
+ #documents{text-align:center; width:90%}
+ 
+ A{text-decoration:none; color:#003366; font-weight:bold}
+ A:hover{color:#FFFFFF; background-color:#003366}
+ 
+ /*DIV{background-color:#F4F4F4; border:solid 1 em; width:100%}*/
+ DIV.header{background-color:#003366; width:100%; color:#FFFFFF; font-style:italic}
+ SPAN.header{font:16pt arial; font-weight:bold; color:#F4F4F4}
